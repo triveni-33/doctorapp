@@ -19,10 +19,10 @@ function App() {
     <Section/>
 
     <div className="doctorparent">
-    <Doctorcard name='John' specialization='Heart' gender='Male'/> 
-    <Doctorcard name='Sivaram' specialization='Ortho' gender='Male'/> 
-    <Doctorcard name='Teja' specialization='Muscles' gender='Male'/> 
-    <Doctorcard name='Vasavi' specialization='psycho' gender='FeMale'/> 
+    <Doctorcard name='Triveni' specialization='Heart' gender='Female'/> 
+    <Doctorcard name='Pavan' specialization='Ortho' gender='Male'/> 
+    <Doctorcard name='Bhanu' specialization='Muscles' gender='Male'/> 
+    <Doctorcard name='Vasavi' specialization='psycho' gender='Female'/> 
     <Doctorcard name='Madhu' specialization='Neuro' gender='Male'/> 
   
     </div>

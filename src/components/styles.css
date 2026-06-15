@@ -7,7 +7,7 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background: blueviolet;
+    background: skyblue;
     font-size: 2rem;
     padding:20px 30px;
     color:white;
@@ -16,7 +16,7 @@ header{
 
 .s1{
     display:flex;
-       background: rgb(226, 43, 195);
+       background: rgb(226, 43, 198);
     font-size: 2rem;
     padding:20px 30px;
     color:white;
@@ -43,6 +43,7 @@ header{
 button{
     padding:10px;
     margin:10px;
+    background-color:pink;
 }
 h3{
     margin:10px 1px;

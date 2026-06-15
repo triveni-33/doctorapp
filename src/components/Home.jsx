@@ -9,7 +9,7 @@ function Home({newdoctor}) {
     let data=[
       {
         id: 1,
-        name: "Teja",
+        name: "manoj",
         age: 26,
         gender: "Male",
         specialization: "Muscles",
@@ -27,7 +27,7 @@ function Home({newdoctor}) {
 
       {
         id: 3,
-        name: "Anu",
+        name: "Anuhya",
         age: 25,
         gender: "Female",
         specialization: "Heart",
