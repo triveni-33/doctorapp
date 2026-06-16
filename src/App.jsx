@@ -3,6 +3,7 @@ import './components/styles.css'
 import Section from './components/Section'
 import Doctorcard from './components/Doctorcard'
 import Addnewdoctor from './components/Addnewdoctor'
+import { Route, Routes } from 'react-router-dom'
 // import { useState } from 'react'
 // import {useEffect} from 'react'
 function App() {
@@ -16,19 +17,23 @@ function App() {
     {/* {count}
     <button onClick={()=>setCount(count+1)}>inc</button> */}
     <Navbar/>
-    <Section/>
+    <Routes>
+      <Route path= '/' element={<Section/>}/>
+      <Route path='/add-doctor' element={<Addnewdoctor/>}/>
+    </Routes>
+  
 
-    <div className="doctorparent">
+    {/* <div className="doctorparent">
     <Doctorcard name='Triveni' specialization='Heart' gender='Female'/> 
     <Doctorcard name='Pavan' specialization='Ortho' gender='Male'/> 
     <Doctorcard name='Bhanu' specialization='Muscles' gender='Male'/> 
     <Doctorcard name='Vasavi' specialization='psycho' gender='Female'/> 
     <Doctorcard name='Madhu' specialization='Neuro' gender='Male'/> 
   
-    </div>
+    </div> */}
 
     {/* <Addnewdoctor/> */}
-    <Addnewdoctor/>
+   
 
 
    </div>

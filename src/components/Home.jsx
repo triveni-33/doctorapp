@@ -71,7 +71,7 @@ function Home({newdoctor}) {
     <div className='doctorparent'>
      {filteredarray.length>0? (filteredarray.map((doctor)=>{
         return (
-          <Doctorcard key={doctor.id} name={doctor.name} gender={doctor.gender} specialization={doctor.specialization}/>
+          <Doctorcard key={doctor.id} id={doctor.id} name={doctor.name} gender={doctor.gender} specialization={doctor.specialization}/>
         )
       })): <h1>No Doctors Found</h1>}
     </div>
