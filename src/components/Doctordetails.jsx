@@ -12,7 +12,7 @@ function Doctordetails() {
     let data=[
       {
         id: 1,
-        name: "Teja",
+        name: "manoj",
         age: 26,
         gender: "Male",
         specialization: "Muscles",
@@ -30,12 +30,16 @@ function Doctordetails() {
 
       {
         id: 3,
-        name: "Anu",
+        name: "Anuhya",
         age: 25,
         gender: "Female",
         specialization: "Heart",
         salary: 5000000,
       },
+
+      
+
+     
     ];
 
     let finddoctor=data.find(val=>{
