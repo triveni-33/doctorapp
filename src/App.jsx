@@ -5,6 +5,7 @@ import Section from './components/Section'
 import Addnewdoctor from './components/Addnewdoctor'
 import { Route, Routes } from 'react-router-dom'
 import Doctordetails from './components/Doctordetails'
+import Weather from './components/Weather'
 // import { useState } from 'react'
 // import {useEffect} from 'react'
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Route path= '/' element={<Section/>}/>
       <Route path='/add-doctor' element={<Addnewdoctor/>}/>
       <Route path='/doctor/:id' element={<Doctordetails/>}/>
+      <Route path='/weather' element={<Weather/>}/>
     </Routes>
   
 
