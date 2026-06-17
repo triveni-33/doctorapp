@@ -71,9 +71,9 @@ function Home({newdoctor}) {
     <select value={specialization} onChange={(e)=>setSpecialization(e.target.value)} name="" id="">
       <option value="">Select specialization</option>
       <option value="Bones">Bones</option>
-      <option value="Blood pressure">Blood Pressure</option>
+      <option value="heart">Heart</option>
       <option value="Muscles">Muscles</option>
-      <option value="Cardio">Cardio</option>
+  
 
     </select>
     </div>
