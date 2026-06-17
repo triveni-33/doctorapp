@@ -70,9 +70,11 @@ function Home({newdoctor}) {
     <input value={search}  onChange={(e)=>setSearch(e.target.value)} type="text" className='text-field' placeholder='search your doctor' />
     <select value={specialization} onChange={(e)=>setSpecialization(e.target.value)} name="" id="">
       <option value="">Select specialization</option>
-      <option value="Bones">bones</option>
-      <option value="Heart">heart</option>
-      <option value="Muscles">muscles</option>
+      <option value="Bones">Bones</option>
+      <option value="Blood pressure">Blood Pressure</option>
+      <option value="Muscles">Muscles</option>
+      <option value="Cardio">Cardio</option>
+
     </select>
     </div>
     <div className='doctorparent'>
