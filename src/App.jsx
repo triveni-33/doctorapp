@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar'
 import './components/styles.css'
 import Section from './components/Section'
-import Doctorcard from './components/Doctorcard'
+//import Doctorcard from './components/Doctorcard'
 import Addnewdoctor from './components/Addnewdoctor'
 import { Route, Routes } from 'react-router-dom'
 import Doctordetails from './components/Doctordetails'
