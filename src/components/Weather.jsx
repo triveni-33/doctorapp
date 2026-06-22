@@ -21,7 +21,7 @@ function Weather() {
             <button type='submit' >Search</button>
         </form>
         <div>
-            <h2>Name- {city}</h2>
+            <h1>Name- {city}</h1>
            
             <h2>Temp -  {weather}</h2>
         </div>

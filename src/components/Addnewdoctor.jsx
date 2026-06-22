@@ -1,5 +1,7 @@
 import { useState } from "react"
 import Home from "./Home"
+import axios from "axios"
+
 function Addnewdoctor() {
   const [name,setName]=useState('')
   const [age,setAge]=useState('')
@@ -9,14 +11,19 @@ function Addnewdoctor() {
 
   const [newdoctor,setNewdoctor]=useState(null)
 
-  function handlesubmit(e){
+ async function handlesubmit(e){
     e.preventDefault()
     let formdata={
       name,age,gender,specialization,salary,id:Date.now()
     }
+    await axios.post('https://doc-back.onrender.com/doctors',formdata)
+    alert('added')
+    
     setNewdoctor(formdata)
     console.log(formdata)
   }
+
+   
   return (
     <div>
       <h1>Add new doctor</h1>
@@ -33,7 +40,7 @@ function Addnewdoctor() {
         <button type='submit'>Add Doctor</button>
       </form>
 
-      <Home newdoctor={newdoctor}/>
+      <Home />
     </div>  
   )
 }
